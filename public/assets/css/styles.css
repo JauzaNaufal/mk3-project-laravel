@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff; 
+}
+
+.navbar {
+    background: linear-gradient(135deg, #444, #333); 
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-nav a {
+    color: #f5f5f5 !important; 
+    font-size: 18px;
+    margin: 0 20px;
+    text-transform: uppercase; 
+    transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+    color: #ffd700; 
+}
+
+.navbar-brand {
+    color: #f5f5f5 !important;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px; 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    max-width: 1200px; 
+    margin: auto;
+}
+
+.about-container {
+    flex: 1;
+    padding: 20px;
+    text-align: left; 
+}
+
+.text {
+    color: #222;
+    font-weight: bold;
+    font-size: 40px; 
+    margin: 0;
+    line-height: 1.2;
+}
+
+.desc {
+    color: #555;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 600px; 
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+
+}
