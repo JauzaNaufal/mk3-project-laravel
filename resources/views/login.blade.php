@@ -20,13 +20,14 @@
         <input type="text" id="username" name="username" value="Jauza"
           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
       </div>
+      
 
       <!-- Password Field -->
       <div class="mb-6">
         <label class="block text-gray-700 font-bold mb-2" for="password">
           Password :
         </label>
-        <input type="password" id="password" name="password" value="****"
+        <input type="password" id="password" name="password" value="*****"
           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline">
       </div>
 
@@ -37,7 +38,9 @@
           LOGIN
         </button>
       </div>
-    </form>
+    </form><li><a href="{{ route ('home') }}" class="hover:text-red-50 font-bold">Home Sini</a></li>
+    </form><li><a href="{{ route ('about') }}" class="hover:text-red-50 font-bold">About Sini</a></li>
+
   </div>
 
 </body>

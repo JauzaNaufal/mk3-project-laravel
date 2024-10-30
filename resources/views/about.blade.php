@@ -12,4 +12,6 @@
     </h1>
     </header>       
 </body>
+</form><li><a href="{{ route ('home') }}" class="hover:text-red-100 font-bold">Home Sini</a></li>
+</form><li><a href="{{ route ('login') }}" class="hover:text-red-50 font-bold">Login Sini</a></li>
 </html>
